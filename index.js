@@ -9,18 +9,17 @@ const open = require("open");
 clear();
 
 const data = {
-    name: chalk.bold.green("                        Sunrit Jana ⬢"),
-    handle: chalk.white("@janaSunrise"),
-    title: chalk.hex('#6495ED')('ML and Web developer and a cybersecurity enthusiast.'),
-    fact: chalk.hex('#00FFFF')('I love watching animes and learning new things!'),
-    email: chalk.hex('#5887FF')('mailto:warriordefenderz@gmail.com'),
-    discord: chalk.hex('#44BBA4')('https://discord.com/users/711194921683648523'),
-    twitter: chalk.hex('#55C1FF')("https://twitter.com/janaSunrise"),
-    github: chalk.hex('#E3DAFF')("https://github.com/janaSunrise"),
-    hashnode: chalk.hex('#C589E8')("https://thedevden.hashnode.dev"),
-    linkedin: chalk.hex('#f8c471')("https://linkedin.com/in/SunritJana"),
-    website: chalk.hex('#9FFFCB')("https://sunritjana.now.sh"),
-    npx: chalk.hex('#06D6A0')("npx sunrit"),
+    name: chalk.bold.green("                        Azhar Ali ⬢"),
+    handle: chalk.white("@azhareus"),
+    title: chalk.hex('#6495ED')('Flutter and Android developer and a frontend enthusiast.'),
+    fact: chalk.hex('#00FFFF')('I love watching anime and learning new things!'),
+    email: chalk.hex('#5887FF')('mailto:aali080@fiu.edu'),
+    discord: chalk.hex('#44BBA4')('https://discord.com/users/241344157883301891'),
+    twitter: chalk.hex('#55C1FF')("https://twitter.com/Azhareus_"),
+    github: chalk.hex('#E3DAFF')("https://github.com/azhareus"),
+    linkedin: chalk.hex('#f8c471')("https://linkedin.com/in/azhar-the-java-developer"),
+    website: chalk.hex('#9FFFCB')("https://azhareus.medium.com"),
+    npx: chalk.hex('#06D6A0')("npx azhar-java-san"),
 
     labelTitle: chalk.hex('#6a8ed2').bold("    Title:"),
     labelFact: chalk.hex('#2bfbaa').bold("     Fun Fact:"),
@@ -28,7 +27,6 @@ const data = {
     labelDiscord: chalk.hex('#7AE582').bold("        Discord:"),
     labelTwitter: chalk.hex('#28DCD4').bold("        Twitter:"),
     labelGitHub: chalk.hex('#C0BABC').bold("         GitHub:"),
-    labelHashnode: chalk.hex('#A959FF').bold("       Hashnode:"),
     labelLinkedin: chalk.hex('#F8C537').bold("       LinkedIn:"),
     labelWebsite: chalk.hex('#59FFC8').bold("        Website:"),
     labelCard: chalk.hex('#76e600').bold("                  Card:")
@@ -46,21 +44,20 @@ const me = boxen(
         `${data.labelDiscord}  ${data.discord}`,
         `${data.labelTwitter}  ${data.twitter}`,
         `${data.labelGitHub}  ${data.github}`,
-        `${data.labelHashnode}  ${data.hashnode}`,
         `${data.labelLinkedin}  ${data.linkedin}`,
         `${data.labelWebsite}  ${data.website}`,
         ``,
         `${data.labelCard}  ${data.npx}`,
         ``,
         `${chalk.hex('#08e8de').bold(
-            "Hi there! I'm Sunrit. A passionate ML developer, "
+            "Yo! I'm Azhar. A 14 Figure Java Developer, "
         )}`,
-        `${chalk.hex('#08e8de').bold("Hacker and Web developer from India, and I love to ")}`,
+        `${chalk.hex('#08e8de').bold("Programmer and Mobile Developer from Trinidad, and I love to ")}`,
         `${chalk.hex('#08e8de').bold(
             "learn things, explore and work on them! "
         )}`,
         `${chalk.hex('#08e8de').bold(
-            "Toss me an email or twitter DM if you want to contact or work!"
+            "Toss me an email or a Twitter DM if you want to contact or work!"
         )}`
     ].join("\n"),
     {
@@ -96,14 +93,14 @@ const questions = [{
         {
             name: `Toss me an ${chalk.blueBright.bold("email")}? 📩`,
             value: () => {
-                open("mailto:warriordefenderz@gmail.com");
+                open("mailto:aali080@fiu.edu");
                 console.log("\nLooking forward to hearing your message and replying to you!\n");
             }
         },
         {
             name: `Visit my ${chalk.cyanBright.bold("site")}? 🚀`,
             value: () => {
-                open("https://sunritjana.now.sh");
+                open("https://azhareus.medium.com");
                 console.log("\nThanks for the visit to my site!\n");
             }
         },

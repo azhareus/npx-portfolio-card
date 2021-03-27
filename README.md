@@ -4,7 +4,7 @@ A npx program to give info about me in the terminal!
 
 **How to use?**
 
-Use `npx sunrit` to know me!
+Use `npx azhar-java-san` to know me!
 
 ### Show your support
 
